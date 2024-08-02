@@ -1,0 +1,79 @@
+.footer {
+    color: #fff; /* Text color for the footer */
+    padding: 20px; /* Padding around the footer */
+    width: 100%; /* Full width of the viewport */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+  }
+  
+  .footer-content {
+    display: flex;
+    gap: 300px; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out items horizontally */
+    align-items: center; /* Align items vertically */
+    max-width: 1200px; /* Maximum width of the footer content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 0 20px; /* Add padding inside the footer content */
+    margin-top: 100px;
+  }
+  
+  .footer img {
+    width: 200px;
+    height: 40px; /* Set a consistent height for logos */
+    object-fit: contain; /* Ensure the image fits within the height */
+  }
+  .footer-text{
+display: flex;
+margin-top: 60px;
+
+margin-left: 100px;
+  }
+  
+  .footer ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display list items in a row */
+    gap: 20px; /* Space between list items */
+  }
+  
+  .footer li {
+    display: inline; /* Display list items inline */
+  }
+  
+  .footer a {
+    text-decoration: none; /* Remove underline from links */
+        font-weight: bold; /* Make text bold */
+  }
+  
+  .footer a:hover {
+    color: #007bff; /* Change text color on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      text-align: center; /* Center text */
+    }
+  
+     .footer ul {
+      flex-direction: column; /* Stack list items vertically */
+      gap: 10px; /* Reduce space between list items */
+    }
+  
+    .footer img {
+      height: 30px; /* Smaller size for logos on mobile */
+    }
+  }
+
+.footer-text p {
+    font-family: "Outfit", sans-serif;
+ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+hr{
+    margin-top: 20px;
+    width: 1200px;
+}

@@ -1,0 +1,38 @@
+.about h1{
+    font-family: "Outfit", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 50.4px;
+text-align: left;
+
+}
+.name{
+    margin-top: -50px;
+    margin-left: 80px;
+    font-family: "Outfit", sans-serif;
+}
+.founder{
+    margin-top: -5px;
+    margin-left: 80px;
+    font-family: "Outfit", sans-serif;
+}
+.about-card{
+    border: 1px solid gray;
+    padding: 20px 20px;
+    border-radius: 20px;
+    background:wheat;
+
+}
+.about p {
+    font-family: "Outfit", sans-serif;
+}
+.wrappers{
+    display: flex;
+    margin-top: 50px;
+
+}
+.title-h1{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: "Outfit", sans-serif;
+}

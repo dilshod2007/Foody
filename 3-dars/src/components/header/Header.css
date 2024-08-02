@@ -1,0 +1,47 @@
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute space evenly between items */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Add some padding on the sides */
+    background-color: #f8f8f8; /* Background color of the navbar */
+    width: 100%; /* Full width of the viewport */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+  }
+  
+  .container img {
+    height: 40px; /* Set a consistent height for logos */
+    object-fit: contain; /* Ensure the image fits within the given height */
+  }
+  
+  .ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display list items in a row */
+    gap: 20px; /* Space between list items */
+    margin-left: 100px;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  li {
+    display: inline; /* Display list items inline */
+    font-family: "Outfit", sans-serif;
+  }
+  
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set text color */
+    font-weight: bold; /* Make text bold */
+    font-family: "Outfit", sans-serif;
+  }
+  select{
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set text color */
+    font-weight: bold;
+    border: none;
+  }
+  
+  a:hover {
+    color: #007bff; /* Change text color on hover */
+  }
+  
